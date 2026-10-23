@@ -41,6 +41,7 @@ Set-Location .\backend24
 ```
 
 Open [http://127.0.0.1:8001/](http://127.0.0.1:8001/) in a browser. The first classifier use downloads its Hugging Face model and can take longer. Keep Ollama and the FastAPI server running while using the app.
+Also you can access the deployed website on this link  which's server is operational on limited period.
 
 ## Benchmark files
 
