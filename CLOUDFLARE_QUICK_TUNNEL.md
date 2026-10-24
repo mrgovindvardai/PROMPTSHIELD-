@@ -2,6 +2,12 @@
 
 PromptShield runs on your laptop. A Cloudflare Quick Tunnel can temporarily make the local app reachable through a public `trycloudflare.com` URL.
 
+## Current demo URL
+
+[https://privilege-metabolism-local-intranet.trycloudflare.com/](https://privilege-metabolism-local-intranet.trycloudflare.com/)
+
+This is the currently reported URL and may stop working or change when the laptop, app server, or tunnel stops or restarts. Check the latest URL before sharing or submitting it. Anyone with the URL may be able to reach the app, so use demo data only.
+
 ## Start the app and tunnel
 
 1. Start PromptShield with the normal Windows server command from the README and keep that PowerShell window open.
