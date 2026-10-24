@@ -42,7 +42,7 @@ Set-Location .\backend24
 
 Open [http://127.0.0.1:8001/](http://127.0.0.1:8001/) in a browser. The first classifier use downloads its Hugging Face model and can take longer. Keep Ollama and the FastAPI server running while using the app.
 
-Current temporary public demo:(https://breakdown-routes-requested-effort.trycloudflare.com/)]. This link works only while the laptop, app server, internet connection, and Cloudflare tunnel are running. Restarting the tunnel may produce a different URL; if this one stops working, get the current URL from the running tunnel and update any form or message where you shared it. Anyone with the URL may reach the app, so use demo data only.
+Current temporary public demo: https://breakdown-routes-requested-effort.trycloudflare.com/ . This link works only while the laptop, app server, internet connection, and Cloudflare tunnel are running. Restarting the tunnel may produce a different URL; if this one stops working, get the current URL from the running tunnel and update any form or message where you shared it. Anyone with the URL may reach the app, so use demo data only.
 
 ### Temporary public demo link
 
