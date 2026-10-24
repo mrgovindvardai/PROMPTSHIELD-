@@ -42,6 +42,8 @@ Set-Location .\backend24
 
 Open [http://127.0.0.1:8001/](http://127.0.0.1:8001/) in a browser. The first classifier use downloads its Hugging Face model and can take longer. Keep Ollama and the FastAPI server running while using the app.
 
+Current temporary public demo: [https://privilege-metabolism-local-intranet.trycloudflare.com/](https://privilege-metabolism-local-intranet.trycloudflare.com/). This link works only while the laptop, app server, internet connection, and Cloudflare tunnel are running. Restarting the tunnel may produce a different URL; if this one stops working, get the current URL from the running tunnel and update any form or message where you shared it. Anyone with the URL may reach the app, so use demo data only.
+
 ### Temporary public demo link
 
 For a short demo, the local app can be shared through a Cloudflare Quick Tunnel. The public `trycloudflare.com` URL is temporary: it works only while the laptop, PromptShield server, internet connection, and tunnel are running. Restarting the tunnel can generate a different URL, so check the current URL and update any form or message where the previous URL was submitted. Do not treat this as a permanent deployment. See [Cloudflare Quick Tunnel instructions](CLOUDFLARE_QUICK_TUNNEL.md). Use demo data only; anyone with the URL can reach the app.
