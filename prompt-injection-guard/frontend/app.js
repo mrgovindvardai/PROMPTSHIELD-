@@ -346,7 +346,7 @@ function parsePromptCsv(text) {
     if (rows.length < 2) throw new Error("This CSV has no prompt rows yet.");
     const headers = rows[0].map((cell) => cell.replace(/^\uFEFF/, "").trim().toLowerCase().replace(/[\s-]+/g, "_"));
     const promptIndex = headers.findIndex((name) => ["prompt", "text", "input"].includes(name));
-    const expectedIndex = headers.findIndex((name) => ["expected", "expected_result", "label"].includes(name));
+    const expectedIndex = headers.findIndex((name) => ["expected", "expected_result", "expected_label", "label"].includes(name));
     if (promptIndex < 0) throw new Error("CSV needs a Prompt, Text, or Input column.");
     return rows.slice(1).map((cells) => ({
         prompt: String(cells[promptIndex] || "").trim(),
